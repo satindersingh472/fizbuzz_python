@@ -6,9 +6,6 @@ def divide_number(number):
     elif(number % 3 == 0):
         print('Fizz')
 
-def pick_number(array):
-    for number in array:
-        divide_number(number)
-
-number_array = [15,30,45,60,75,3,6,9,12,18,5,10,20,25,35]
-pick_number(number_array)
+number_array = [3,5,15,30,45,60,75,3,6,9,12,18,5,10,20,25,35]
+for number in number_array:
+    divide_number(number)
